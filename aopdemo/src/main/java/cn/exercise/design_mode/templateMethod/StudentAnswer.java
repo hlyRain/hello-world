@@ -1,4 +1,4 @@
-package cn.exercise.mode.templateMethod;
+package cn.exercise.design_mode.templateMethod;
 
 /**
  * 模版方法模式，在方法抽象类TestPaper的 quersion1中定义好了工作模版，子类只需实现模版中的可变部分

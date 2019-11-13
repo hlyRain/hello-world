@@ -1,4 +1,4 @@
-package cn.exercise.mode.observer;
+package cn.exercise.design_mode.observer;
 
 import java.util.ArrayList;
 import java.util.List;

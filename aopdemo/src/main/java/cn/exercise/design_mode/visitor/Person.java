@@ -1,4 +1,4 @@
-package cn.exercise.mode.visitor;
+package cn.exercise.design_mode.visitor;
 
 /**
  * 抽象类：人

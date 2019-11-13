@@ -1,4 +1,4 @@
-package cn.exercise.mode.builder;
+package cn.exercise.design_mode.builder;
 
 /**
  * 具体建造者类1

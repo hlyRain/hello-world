@@ -1,4 +1,4 @@
-package cn.exercise.mode.facade;
+package cn.exercise.design_mode.facade;
 
 public class Fund {
     Stock1 gu1;

@@ -1,4 +1,4 @@
-package cn.exercise.mode.decorate;
+package cn.exercise.design_mode.decorate;
 
 public class Person {
 

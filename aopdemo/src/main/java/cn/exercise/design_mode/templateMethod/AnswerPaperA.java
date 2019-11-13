@@ -1,4 +1,4 @@
-package cn.exercise.mode.templateMethod;
+package cn.exercise.design_mode.templateMethod;
 
 /**
  * 答题券

@@ -1,4 +1,4 @@
-package cn.exercise.mode.decorate;
+package cn.exercise.design_mode.decorate;
 
 /**
  * 具体服饰 Tshirt

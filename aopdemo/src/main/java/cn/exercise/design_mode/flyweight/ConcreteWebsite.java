@@ -1,4 +1,4 @@
-package cn.exercise.mode.flyweight;
+package cn.exercise.design_mode.flyweight;
 
 public class ConcreteWebsite extends Website {
 

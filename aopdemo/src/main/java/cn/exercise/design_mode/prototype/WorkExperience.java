@@ -1,4 +1,4 @@
-package cn.exercise.mode.prototype;
+package cn.exercise.design_mode.prototype;
 
 public class WorkExperience implements Cloneable{
     private String workdDate;

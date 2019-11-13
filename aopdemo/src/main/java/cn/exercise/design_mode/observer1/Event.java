@@ -1,4 +1,4 @@
-package cn.exercise.mode.observer1;
+package cn.exercise.design_mode.observer1;
 
 import java.lang.reflect.Method;
 

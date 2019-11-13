@@ -1,4 +1,4 @@
-package cn.exercise.mode.state;
+package cn.exercise.design_mode.state;
 
 public class RestState extends State {
 

@@ -11,10 +11,12 @@ package cn.exercise.design_mode.command;
 public class CommandMain {
 
     public static void main(String[] args) {
-        Barbecuer boy = new Barbecuer();
-        Command bakeMuttonCommand1 = new BakeMuttonCommand(boy);
-        Command bakeMuttonCommand2 = new BakeMuttonCommand(boy);
-        Command bakeFishCommand1 = new BakeFishCommand(boy);
+        Barbecuer boy1 = new Barbecuer("厨师1");
+
+
+        Command bakeMuttonCommand1 = new BakeMuttonCommand(boy1);
+        Command bakeMuttonCommand2 = new BakeMuttonCommand(boy1);
+        Command bakeFishCommand1 = new BakeFishCommand(boy1);
 
         Waiter girl = new Waiter();
         girl.setOrder(bakeMuttonCommand1);

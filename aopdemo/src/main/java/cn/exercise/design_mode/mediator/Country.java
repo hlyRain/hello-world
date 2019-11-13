@@ -1,4 +1,4 @@
-package cn.exercise.mode.mediator;
+package cn.exercise.design_mode.mediator;
 
 public abstract class Country {
     protected UnitedNations mediator;

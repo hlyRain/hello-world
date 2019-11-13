@@ -1,4 +1,4 @@
-package cn.exercise.mode.prototype2;
+package cn.exercise.design_mode.prototype2;
 
 
 /**

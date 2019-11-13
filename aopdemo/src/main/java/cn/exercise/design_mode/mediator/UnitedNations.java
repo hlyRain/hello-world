@@ -1,4 +1,4 @@
-package cn.exercise.mode.mediator;
+package cn.exercise.design_mode.mediator;
 
 /**
  * 通过联合国解决美国和安理会的问题

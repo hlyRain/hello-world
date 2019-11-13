@@ -1,4 +1,4 @@
-package cn.exercise.mode.simpleFactory;
+package cn.exercise.design_mode.simpleFactory;
 
 public class OperationMul extends Operation{
 

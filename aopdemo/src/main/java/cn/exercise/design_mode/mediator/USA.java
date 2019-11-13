@@ -1,4 +1,4 @@
-package cn.exercise.mode.mediator;
+package cn.exercise.design_mode.mediator;
 
 public class USA extends Country {
     public USA(UnitedNations mediator) {

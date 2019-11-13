@@ -1,4 +1,4 @@
-package cn.exercise.mode.visitor;
+package cn.exercise.design_mode.visitor;
 
 import java.util.ArrayList;
 import java.util.List;

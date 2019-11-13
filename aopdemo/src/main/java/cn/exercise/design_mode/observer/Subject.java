@@ -1,4 +1,4 @@
-package cn.exercise.mode.observer;
+package cn.exercise.design_mode.observer;
 
 public interface Subject {
 

@@ -1,8 +1,7 @@
-package cn.exercise.mode.composite;
+package cn.exercise.design_mode.composite;
 
 
 import java.util.ArrayList;
-import java.util.Iterator;
 
 /**
  * 组合模式

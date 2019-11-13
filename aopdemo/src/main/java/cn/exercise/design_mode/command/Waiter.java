@@ -1,4 +1,4 @@
-package cn.exercise.mode.command;
+package cn.exercise.design_mode.command;
 
 import java.util.ArrayList;
 import java.util.Date;

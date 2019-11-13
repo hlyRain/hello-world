@@ -1,4 +1,4 @@
-package cn.exercise.mode.prototype;
+package cn.exercise.design_mode.prototype;
 
 /**
  * 原型模式：用原型实例指定创建对象的种类，并且通过拷贝这些原型创建新的实例

@@ -1,4 +1,4 @@
-package cn.exercise.mode.bridge;
+package cn.exercise.design_mode.bridge;
 
 public class HandsetGame extends HandsetSoft {
     @Override

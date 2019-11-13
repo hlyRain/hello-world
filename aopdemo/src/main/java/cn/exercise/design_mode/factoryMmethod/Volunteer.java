@@ -1,4 +1,4 @@
-package cn.exercise.mode.factoryMmethod;
+package cn.exercise.design_mode.factoryMmethod;
 
 /**
  * 志愿者学雷锋

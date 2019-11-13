@@ -1,4 +1,4 @@
-package cn.exercise.mode.abstractFactory;
+package cn.exercise.design_mode.abstractFactory;
 
 public class NorthVegetable implements Vegetable {
     @Override

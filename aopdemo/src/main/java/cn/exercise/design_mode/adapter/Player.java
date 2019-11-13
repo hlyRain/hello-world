@@ -1,4 +1,4 @@
-package cn.exercise.mode.adapter;
+package cn.exercise.design_mode.adapter;
 
 public abstract class Player {
 

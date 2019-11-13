@@ -1,4 +1,4 @@
-package cn.exercise.mode.chainOfResponsibility;
+package cn.exercise.design_mode.chainOfResponsibility;
 
 
 /**

@@ -1,4 +1,4 @@
-package cn.exercise.mode.composite;
+package cn.exercise.design_mode.composite;
 
 public class HRDepartment extends Company{
 

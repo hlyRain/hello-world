@@ -1,4 +1,4 @@
-package cn.exercise.mode.interpreter;
+package cn.exercise.design_mode.interpreter;
 
 /**
  * 演奏内容

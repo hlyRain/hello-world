@@ -1,4 +1,4 @@
-package cn.exercise.mode.observer1;
+package cn.exercise.design_mode.observer1;
 
 /**
  * 观察者模式,又称 发布 - 订阅模式（）Publish/Subscribe模式,增加事件委托机制 ，使用反射机制执行委托方法

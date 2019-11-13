@@ -1,4 +1,4 @@
-package cn.exercise.mode.strategy;
+package cn.exercise.design_mode.strategy;
 
 /**
  * 商场打折优惠，比如打8折，传入字符串0.8

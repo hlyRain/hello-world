@@ -1,4 +1,4 @@
-package cn.exercise.mode.flyweight;
+package cn.exercise.design_mode.flyweight;
 
 /**
  * 网站抽象类

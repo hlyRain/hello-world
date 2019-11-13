@@ -1,4 +1,4 @@
-package cn.exercise.mode.iterator;
+package cn.exercise.design_mode.iterator;
 
 /**
  * 迭代器模式，此模式构造一个类似于Java中的Iterator的迭代器，

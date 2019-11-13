@@ -1,4 +1,4 @@
-package cn.exercise.mode.decorate;
+package cn.exercise.design_mode.decorate;
 
 /**
  * 装饰者模式主类

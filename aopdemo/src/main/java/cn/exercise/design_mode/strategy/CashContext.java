@@ -1,4 +1,4 @@
-package cn.exercise.mode.strategy;
+package cn.exercise.design_mode.strategy;
 
 
 /**

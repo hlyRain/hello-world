@@ -1,4 +1,4 @@
-package cn.exercise.mode.singleton.lazy;
+package cn.exercise.design_mode.singleton.lazy;
 
 /**
  * 单例模式，懒汉模式

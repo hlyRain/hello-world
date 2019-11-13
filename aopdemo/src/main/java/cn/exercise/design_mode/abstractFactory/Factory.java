@@ -1,4 +1,4 @@
-package cn.exercise.mode.abstractFactory;
+package cn.exercise.design_mode.abstractFactory;
 
 /**
  * 抽象工厂类（接口）

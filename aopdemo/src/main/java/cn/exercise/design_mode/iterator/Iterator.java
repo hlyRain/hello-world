@@ -1,4 +1,4 @@
-package cn.exercise.mode.iterator;
+package cn.exercise.design_mode.iterator;
 
 public interface Iterator {
 

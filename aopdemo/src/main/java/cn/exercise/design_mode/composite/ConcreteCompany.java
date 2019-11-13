@@ -1,4 +1,4 @@
-package cn.exercise.mode.composite;
+package cn.exercise.design_mode.composite;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -43,8 +43,7 @@ public class ConcreteCompany extends Company{
 
     @Override
     public void lineOfDuty() {
-        for (Company component: children
-             ) {
+        for (Company component: children) {
             component.lineOfDuty();
         }
     }

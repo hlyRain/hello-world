@@ -1,4 +1,4 @@
-package com.hly.util;
+package com.hly.config;
 
 
 import org.springframework.context.annotation.Bean;

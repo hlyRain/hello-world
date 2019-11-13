@@ -1,4 +1,4 @@
-package cn.exercise.mode.builder;
+package cn.exercise.design_mode.builder;
 
 /**
  * 抽象建造者类

@@ -1,4 +1,4 @@
-package cn.exercise.mode.singleton.double_lock_volatile;
+package cn.exercise.design_mode.singleton.double_lock_volatile;
 
 
 /**

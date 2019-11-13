@@ -1,4 +1,4 @@
-package cn.exercise.mode.strategy;
+package cn.exercise.design_mode.strategy;
 
 /**
  * 返利收费子类 满300减100，满600减200，

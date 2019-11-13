@@ -1,4 +1,4 @@
-package cn.exercise.mode.factoryMmethod;
+package cn.exercise.design_mode.factoryMmethod;
 
 /**
  * 简单工厂方法类及 Main执行

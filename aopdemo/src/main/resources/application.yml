@@ -122,7 +122,7 @@ pagehelper:
   offset-as-page-num: true        #默认值为 false，该参数对使用 RowBounds 作为分页参数时有效。 当该参数设置为 true 时，会将 RowBounds 中的 offset 参数当成 pageNum 使用，可以用页码和页面大小两个参数进行分页。
 mybatis:
   mapper-locations: classpath:mapper/*.xml  #配置映射文件位置，classpath指resources
-  type-aliases-package: com.hly.model       #实体类所在位置
+  type-aliases-package: com.exercise.model       #实体类所在位置
   configuration:                            #打印sql到控制台
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
 

@@ -1,4 +1,4 @@
-package cn.exercise.mode.abstractFactory;
+package cn.exercise.design_mode.abstractFactory;
 
 /**
  * 具体工厂类

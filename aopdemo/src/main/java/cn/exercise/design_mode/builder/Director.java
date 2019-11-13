@@ -1,6 +1,7 @@
-package cn.exercise.mode.builder;
+package cn.exercise.design_mode.builder;
 
 /**
+ * 建造者模式
  * 指挥者类
  */
 public class Director {

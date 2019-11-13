@@ -1,4 +1,4 @@
-package cn.exercise.mode.memento;
+package cn.exercise.design_mode.memento;
 
 /**
  * 备忘录模式

@@ -1,4 +1,4 @@
-package cn.exercise.mode.singleton.hungry;
+package cn.exercise.design_mode.singleton.hungry;
 
 /**
  * 单例模式，饿汉模式

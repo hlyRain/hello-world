@@ -1,4 +1,4 @@
-package com.hly.util;
+package com.hly.config;
 
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import com.fasterxml.jackson.annotation.PropertyAccessor;

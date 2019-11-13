@@ -1,4 +1,4 @@
-package cn.exercise.mode.proxy;
+package cn.exercise.design_mode.proxy;
 
 /**
  * 学生类
