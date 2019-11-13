@@ -35,7 +35,6 @@ public class RedisController {
         user.setName(key);
         user.setAge(20);
         return redisUtil.set(key,user,ExpireTime);
-//        return redisUtil.set(key,value);
     }
 
     @GetMapping("/get")
