@@ -7,7 +7,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @ComponentScan(basePackages = {"com.hly.*"})
-@MapperScan("com.exercise.mapper")
+@MapperScan("com.hly.mapper")
 @SpringBootApplication
 public class AopdemoApplication {
 
