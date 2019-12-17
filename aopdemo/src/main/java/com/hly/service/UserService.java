@@ -49,6 +49,9 @@ public class UserService {
         return userMapper.updateByPrimaryKey(record);
     }
 
+    public User queryByUsername(String username){
+        return userMapper.queryByUsername(username);
+    }
 
 }
 

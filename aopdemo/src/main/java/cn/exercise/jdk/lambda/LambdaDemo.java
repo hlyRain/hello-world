@@ -19,6 +19,7 @@ public class LambdaDemo {
             return string;
         };
 
+
         Function<String, String> function2 = string -> {
             System.out.println("function2 输出了：" + string);
             return string;

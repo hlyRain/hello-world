@@ -4,11 +4,13 @@
   <resultMap id="BaseResultMap" type="com.hly.model.User">
     <id column="id" jdbcType="INTEGER" property="id" />
     <result column="age" jdbcType="INTEGER" property="age" />
-    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="username" jdbcType="VARCHAR" property="username" />
     <result column="weight" jdbcType="VARCHAR" property="weight" />
+    <result column="password" jdbcType="VARCHAR" property="password" />
+    <result column="valid_flag" jdbcType="INTEGER" property="validFlag" />
   </resultMap>
   <sql id="Base_Column_List">
-    id, age, name, weight
+    id, age, username, weight, password, valid_flag
   </sql>
   <select id="selectByPrimaryKey" parameterType="java.lang.Integer" resultMap="BaseResultMap">
     select
@@ -21,10 +23,10 @@
     where id = #{id,jdbcType=INTEGER}
   </delete>
   <insert id="insert" parameterType="com.hly.model.User">
-    insert into tbl_user (id, age, name,
-      weight)
-    values (#{id,jdbcType=INTEGER}, #{age,jdbcType=INTEGER}, #{name,jdbcType=VARCHAR},
-      #{weight,jdbcType=VARCHAR})
+    insert into tbl_user (id, age, username,
+      weight, password, valid_flag)
+    values (#{id,jdbcType=INTEGER}, #{age,jdbcType=INTEGER}, #{username,jdbcType=VARCHAR},
+      #{weight,jdbcType=VARCHAR}, #{password,jdbcType=VARCHAR}, #{validFlag,jdbcType=INTEGER})
   </insert>
   <insert id="insertSelective" parameterType="com.hly.model.User">
     insert into tbl_user
@@ -35,11 +37,17 @@
       <if test="age != null">
         age,
       </if>
-      <if test="name != null">
-        name,
+      <if test="username != null">
+        username,
       </if>
       <if test="weight != null">
         weight,
+      </if>
+      <if test="password != null">
+        password,
+      </if>
+      <if test="validFlag != null">
+        valid_flag,
       </if>
     </trim>
     <trim prefix="values (" suffix=")" suffixOverrides=",">
@@ -49,11 +57,17 @@
       <if test="age != null">
         #{age,jdbcType=INTEGER},
       </if>
-      <if test="name != null">
-        #{name,jdbcType=VARCHAR},
+      <if test="username != null">
+        #{username,jdbcType=VARCHAR},
       </if>
       <if test="weight != null">
         #{weight,jdbcType=VARCHAR},
+      </if>
+      <if test="password != null">
+        #{password,jdbcType=VARCHAR},
+      </if>
+      <if test="validFlag != null">
+        #{validFlag,jdbcType=VARCHAR},
       </if>
     </trim>
   </insert>
@@ -63,11 +77,17 @@
       <if test="age != null">
         age = #{age,jdbcType=INTEGER},
       </if>
-      <if test="name != null">
-        name = #{name,jdbcType=VARCHAR},
+      <if test="username != null">
+        username = #{username,jdbcType=VARCHAR},
       </if>
       <if test="weight != null">
         weight = #{weight,jdbcType=VARCHAR},
+      </if>
+      <if test="password != null">
+        password = #{password,jdbcType=VARCHAR},
+      </if>
+      <if test="validFlag != null">
+        valid_flag = #{validFlag,jdbcType=VARCHAR},
       </if>
     </set>
     where id = #{id,jdbcType=INTEGER}
@@ -75,10 +95,18 @@
   <update id="updateByPrimaryKey" parameterType="com.hly.model.User">
     update tbl_user
     set age = #{age,jdbcType=INTEGER},
-      name = #{name,jdbcType=VARCHAR},
-      weight = #{weight,jdbcType=VARCHAR}
+      username = #{username,jdbcType=VARCHAR},
+      weight = #{weight,jdbcType=VARCHAR},
+      password = #{password,jdbcType=VARCHAR},
+      valid_flag = #{validFlag,jdbcType=VARCHAR}
     where id = #{id,jdbcType=INTEGER}
   </update>
 
 
+  <select id="queryByUsername" parameterType="java.lang.String" resultMap="BaseResultMap">
+    select
+    <include refid="Base_Column_List" />
+    from tbl_user
+    where username = #{username,jdbcType=VARCHAR}
+  </select>
 </mapper>

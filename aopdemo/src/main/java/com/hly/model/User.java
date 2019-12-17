@@ -5,9 +5,13 @@ public class User {
 
     private Integer age;
 
-    private String name;
+    private String username;
 
     private String weight;
+
+
+    private String password;
+    private int validFlag;
 
     public Integer getId() {
         return id;
@@ -25,12 +29,12 @@ public class User {
         this.age = age;
     }
 
-    public String getName() {
-        return name;
+    public String getUsername() {
+        return username;
     }
 
-    public void setName(String name) {
-        this.name = name == null ? null : name.trim();
+    public void setUsername(String username) {
+        this.username = username == null ? null : username.trim();
     }
 
     public String getWeight() {
@@ -39,5 +43,21 @@ public class User {
 
     public void setWeight(String weight) {
         this.weight = weight == null ? null : weight.trim();
+    }
+
+    public String getPassword() {
+        return password;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    public int getValidFlag() {
+        return validFlag;
+    }
+
+    public void setValidFlag(int validFlag) {
+        this.validFlag = validFlag;
     }
 }

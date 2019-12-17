@@ -6,10 +6,7 @@ import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.hly.util.ResultVO;
 import org.aspectj.lang.JoinPoint;
-import org.aspectj.lang.annotation.AfterReturning;
-import org.aspectj.lang.annotation.Aspect;
-import org.aspectj.lang.annotation.Before;
-import org.aspectj.lang.annotation.Pointcut;
+import org.aspectj.lang.annotation.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
@@ -57,9 +54,24 @@ public class WebLogAspect {
     }
 
 
+    /**
+     * 返回通知  失败之后不会执行
+     * @param resultVO
+     * @throws Exception
+     */
     @AfterReturning(returning = "resultVO", pointcut = "controllerMethod()")
     public void logResultVOInfo(ResultVO resultVO) throws Exception {
         logger.info("请求结果：" + resultVO.getCode() + "\t" + resultVO.getMsg());
+    }
+
+    /**
+     * 异常通知
+     * @param point
+     * @param e
+     */
+    @AfterThrowing(pointcut = "controllerMethod()",throwing = "e")
+    public  void throwLog(JoinPoint point, Throwable e){
+        System.out.println("异常信息："+e.getMessage());
     }
 
 }

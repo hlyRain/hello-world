@@ -22,4 +22,7 @@ public interface UserMapper {
 
     @Select("select * from tbl_user")
     List<User> selectAll();
+
+    User queryByUsername(String username);
+
 }

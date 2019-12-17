@@ -21,8 +21,8 @@ http://localhost:8888/aopdemo/v2/api-docs
 4. 集成了mybatis-generator，快速生成User.java, UserMapper.java, UserMapper.xml 三个文件
 5. 集成了PageHelper, 实现方法请查看接口 http://localhost:8888/aopdemo/user/list?limit=3&offset=3
    使用PageInfo返回分页数据
-6. 集成spring-security实现安全访问控制，登录名/密码：user/user
+6. 集成apache-shiro实现安全访问控制，登录名/密码：
    访问链接地址：http://localhost:8888/aopdemo/hello/list 在未登录的情况下会跳转到登录页面
    坑：csrf Token会导致post，put，Delete请求无法验证通过，返回403错误
    因此在swagger环境下设置为 csrf().disable()，实际情况应该使用默认设置
-7. 集成Redis
+7. 集成Redis,实现Redis简单的调用
